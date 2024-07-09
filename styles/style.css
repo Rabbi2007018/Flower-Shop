@@ -239,6 +239,7 @@ background: rgba(229, 84, 115, 0.05);
     justify-content: center;
     align-items: center;
     gap: 40px;
+    margin-top: 180px;
 }
 .sign-text h3{
     font-family: Lato;
@@ -265,5 +266,52 @@ color: beige;
 border: none;
 padding: 20px;
 width: 130px;
-height: 55px;px;
+height: 55px;;
+}
+.sign-img{
+    margin-top: 150px;
+}
+/* instagram */
+.instagram{
+    width: 1922px;
+    height: 620px;
+    
+    margin: 0px auto;
+    margin-top: 150px;
+}
+.insta-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.insta-text h1{
+    color: rgb(39, 39, 39);
+font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.insta-text p{
+    color: rgba(58, 58, 58, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.insta-img{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 25px;
+}
+.insta-img img{
+    border: 0.8px  rgb(189, 188, 188);
+    border-style: dashed;
+    border-radius:  5px;
 }
