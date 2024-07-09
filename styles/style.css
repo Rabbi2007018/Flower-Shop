@@ -315,3 +315,65 @@ text-align: center;
     border-style: dashed;
     border-radius:  5px;
 }
+/* subscribe */
+.subscribe{
+    width: 1440px;
+height: 449px;
+margin: 0px auto;
+background-image:  url(../Rectangle\ 9.png);
+margin-top: 130px;
+}
+.sub-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.sub-text{
+   margin-top: 120px;
+
+}
+.sub-text h1{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub-text p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sub-btn{
+    margin-top: 50px;
+}
+ input[type="email"]{
+    width: 700px;
+height: 64px;
+background-color: rgb(255, 213, 213);
+border: none;
+font-size: larger;
+
+ }
+ .sub-btn{
+    display: flex;
+    gap: 30px;
+ }
+ .sub-btn button{
+    width: 150px;
+height: 64px;
+border-radius: 8px;
+
+background: rgb(229, 84, 115);
+color: white;
+border: none;
+font-size: larger;
+ }
+
