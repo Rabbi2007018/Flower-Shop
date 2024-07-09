@@ -163,10 +163,107 @@ text-align: center;
 .help-container{
     width: 1440px;
 height: 320px;
-border: 1px solid red;
+
 margin: 0px auto;
 margin-top: 70px;
 border-radius: 8px;
 
 background: rgba(39, 39, 39, 0.05);
+}
+.help-img{
+     display: flex; 
+     justify-content: space-around;
+     align-items: center;
+    margin-top: 90px;
+    
+
+    
+}
+.man{
+    display: flex;
+    flex-direction: column;
+}
+.buket{
+   
+   
+}
+.call{
+    display: flex;
+    flex-direction: column;
+}
+.help-img img{
+    width: 87.97px;
+height: 88px;
+}
+.help {
+    display: flex;
+    flex-direction: column  ;
+}
+.help-text{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
+    
+}
+.help-text p{
+    color: rgba(61, 60, 60, 0.8);
+font-family: Lato;
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+
+/* sign-container */
+.sign-container{
+    width: 1922px;
+height: 620px;
+border-radius: 8px;
+margin: 0px auto;
+
+margin-top: 135px;
+
+background: rgba(229, 84, 115, 0.05);
+}
+.sign-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 90px;
+}
+.sign-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.sign-text h3{
+    font-family: Lato;
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+.sign-text p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center; 
+}
+.sign-text button{
+    border-radius: 8px;
+
+background: rgb(229, 84, 115);
+color: beige;
+border: none;
+padding: 20px;
+width: 130px;
+height: 55px;px;
 }
